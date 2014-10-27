@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E1F8A819F95AA400AF05A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1F8A719F95AA400AF05A2 /* AppDelegate.swift */; };
+		26E1F8AA19F95AA400AF05A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1F8A919F95AA400AF05A2 /* ViewController.swift */; };
+		26E1F8AD19F95AA400AF05A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E1F8AB19F95AA400AF05A2 /* Main.storyboard */; };
+		26E1F8AF19F95AA400AF05A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26E1F8AE19F95AA400AF05A2 /* Images.xcassets */; };
+		26E1F8B219F95AA400AF05A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26E1F8B019F95AA400AF05A2 /* LaunchScreen.xib */; };
+		26E1F8BE19F95AA400AF05A2 /* SwiftBeaconPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1F8BD19F95AA400AF05A2 /* SwiftBeaconPayTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26E1F8B819F95AA400AF05A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26E1F89A19F95AA400AF05A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26E1F8A119F95AA400AF05A2;
+			remoteInfo = SwiftBeaconPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26E1F8A219F95AA400AF05A2 /* SwiftBeaconPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBeaconPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E1F8A619F95AA400AF05A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E1F8A719F95AA400AF05A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26E1F8A919F95AA400AF05A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26E1F8AC19F95AA400AF05A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26E1F8AE19F95AA400AF05A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26E1F8B119F95AA400AF05A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26E1F8B719F95AA400AF05A2 /* SwiftBeaconPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBeaconPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E1F8BC19F95AA400AF05A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26E1F8BD19F95AA400AF05A2 /* SwiftBeaconPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBeaconPayTests.swift; sourceTree = "<group>"; };
+		26E1F8C719F95AF300AF05A2 /* SwiftBeaconPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SwiftBeaconPay.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26E1F89F19F95AA400AF05A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E1F8B419F95AA400AF05A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E1F89919F95AA400AF05A2 = {
+			isa = PBXGroup;
+			children = (
+				26E1F8A419F95AA400AF05A2 /* SwiftBeaconPay */,
+				26E1F8BA19F95AA400AF05A2 /* SwiftBeaconPayTests */,
+				26E1F8A319F95AA400AF05A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26E1F8A319F95AA400AF05A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26E1F8A219F95AA400AF05A2 /* SwiftBeaconPay.app */,
+				26E1F8B719F95AA400AF05A2 /* SwiftBeaconPayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26E1F8A419F95AA400AF05A2 /* SwiftBeaconPay */ = {
+			isa = PBXGroup;
+			children = (
+				26E1F8C719F95AF300AF05A2 /* SwiftBeaconPay.entitlements */,
+				26E1F8A719F95AA400AF05A2 /* AppDelegate.swift */,
+				26E1F8A919F95AA400AF05A2 /* ViewController.swift */,
+				26E1F8AB19F95AA400AF05A2 /* Main.storyboard */,
+				26E1F8AE19F95AA400AF05A2 /* Images.xcassets */,
+				26E1F8B019F95AA400AF05A2 /* LaunchScreen.xib */,
+				26E1F8A519F95AA400AF05A2 /* Supporting Files */,
+			);
+			path = SwiftBeaconPay;
+			sourceTree = "<group>";
+		};
+		26E1F8A519F95AA400AF05A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26E1F8A619F95AA400AF05A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26E1F8BA19F95AA400AF05A2 /* SwiftBeaconPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				26E1F8BD19F95AA400AF05A2 /* SwiftBeaconPayTests.swift */,
+				26E1F8BB19F95AA400AF05A2 /* Supporting Files */,
+			);
+			path = SwiftBeaconPayTests;
+			sourceTree = "<group>";
+		};
+		26E1F8BB19F95AA400AF05A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26E1F8BC19F95AA400AF05A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26E1F8A119F95AA400AF05A2 /* SwiftBeaconPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E1F8C119F95AA400AF05A2 /* Build configuration list for PBXNativeTarget "SwiftBeaconPay" */;
+			buildPhases = (
+				26E1F89E19F95AA400AF05A2 /* Sources */,
+				26E1F89F19F95AA400AF05A2 /* Frameworks */,
+				26E1F8A019F95AA400AF05A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftBeaconPay;
+			productName = SwiftBeaconPay;
+			productReference = 26E1F8A219F95AA400AF05A2 /* SwiftBeaconPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26E1F8B619F95AA400AF05A2 /* SwiftBeaconPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26E1F8C419F95AA400AF05A2 /* Build configuration list for PBXNativeTarget "SwiftBeaconPayTests" */;
+			buildPhases = (
+				26E1F8B319F95AA400AF05A2 /* Sources */,
+				26E1F8B419F95AA400AF05A2 /* Frameworks */,
+				26E1F8B519F95AA400AF05A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26E1F8B919F95AA400AF05A2 /* PBXTargetDependency */,
+			);
+			name = SwiftBeaconPayTests;
+			productName = SwiftBeaconPayTests;
+			productReference = 26E1F8B719F95AA400AF05A2 /* SwiftBeaconPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26E1F89A19F95AA400AF05A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Laurence, Daniel J.";
+				TargetAttributes = {
+					26E1F8A119F95AA400AF05A2 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = E9DJBCETFB;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
+						};
+					};
+					26E1F8B619F95AA400AF05A2 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 26E1F8A119F95AA400AF05A2;
+					};
+				};
+			};
+			buildConfigurationList = 26E1F89D19F95AA400AF05A2 /* Build configuration list for PBXProject "SwiftBeaconPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26E1F89919F95AA400AF05A2;
+			productRefGroup = 26E1F8A319F95AA400AF05A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26E1F8A119F95AA400AF05A2 /* SwiftBeaconPay */,
+				26E1F8B619F95AA400AF05A2 /* SwiftBeaconPayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26E1F8A019F95AA400AF05A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E1F8AD19F95AA400AF05A2 /* Main.storyboard in Resources */,
+				26E1F8B219F95AA400AF05A2 /* LaunchScreen.xib in Resources */,
+				26E1F8AF19F95AA400AF05A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E1F8B519F95AA400AF05A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26E1F89E19F95AA400AF05A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E1F8AA19F95AA400AF05A2 /* ViewController.swift in Sources */,
+				26E1F8A819F95AA400AF05A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E1F8B319F95AA400AF05A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E1F8BE19F95AA400AF05A2 /* SwiftBeaconPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26E1F8B919F95AA400AF05A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26E1F8A119F95AA400AF05A2 /* SwiftBeaconPay */;
+			targetProxy = 26E1F8B819F95AA400AF05A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26E1F8AB19F95AA400AF05A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E1F8AC19F95AA400AF05A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26E1F8B019F95AA400AF05A2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26E1F8B119F95AA400AF05A2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26E1F8BF19F95AA400AF05A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26E1F8C019F95AA400AF05A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26E1F8C219F95AA400AF05A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftBeaconPay/SwiftBeaconPay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SwiftBeaconPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		26E1F8C319F95AA400AF05A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SwiftBeaconPay/SwiftBeaconPay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SwiftBeaconPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		26E1F8C519F95AA400AF05A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftBeaconPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBeaconPay.app/SwiftBeaconPay";
+			};
+			name = Debug;
+		};
+		26E1F8C619F95AA400AF05A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftBeaconPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftBeaconPay.app/SwiftBeaconPay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26E1F89D19F95AA400AF05A2 /* Build configuration list for PBXProject "SwiftBeaconPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E1F8BF19F95AA400AF05A2 /* Debug */,
+				26E1F8C019F95AA400AF05A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26E1F8C119F95AA400AF05A2 /* Build configuration list for PBXNativeTarget "SwiftBeaconPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E1F8C219F95AA400AF05A2 /* Debug */,
+				26E1F8C319F95AA400AF05A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26E1F8C419F95AA400AF05A2 /* Build configuration list for PBXNativeTarget "SwiftBeaconPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E1F8C519F95AA400AF05A2 /* Debug */,
+				26E1F8C619F95AA400AF05A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26E1F89A19F95AA400AF05A2 /* Project object */;
+}
