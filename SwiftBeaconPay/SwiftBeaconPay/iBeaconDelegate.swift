@@ -21,6 +21,10 @@ class iBeaconDelegate: NSObject, CLLocationManagerDelegate {
         // set delegate, not the angle brackets
         self.locationManager.delegate = self;
         
+        //Need to actually request authorization 
+        // To read more, go here
+        // http://nevan.net/2014/09/core-location-manager-changes-in-ios-8/
+        //
         self.locationManager.requestAlwaysAuthorization()
         self.locationManager.startUpdatingLocation()
         
