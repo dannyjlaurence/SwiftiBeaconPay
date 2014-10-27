@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2641441519FE81D6000165CD /* iBeaconDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641441419FE81D6000165CD /* iBeaconDelegate.swift */; };
 		26E1F8A819F95AA400AF05A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1F8A719F95AA400AF05A2 /* AppDelegate.swift */; };
 		26E1F8AA19F95AA400AF05A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E1F8A919F95AA400AF05A2 /* ViewController.swift */; };
 		26E1F8AD19F95AA400AF05A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26E1F8AB19F95AA400AF05A2 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2641441419FE81D6000165CD /* iBeaconDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iBeaconDelegate.swift; sourceTree = "<group>"; };
 		26E1F8A219F95AA400AF05A2 /* SwiftBeaconPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBeaconPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26E1F8A619F95AA400AF05A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26E1F8A719F95AA400AF05A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				26E1F8C719F95AF300AF05A2 /* SwiftBeaconPay.entitlements */,
 				26E1F8A719F95AA400AF05A2 /* AppDelegate.swift */,
 				26E1F8A919F95AA400AF05A2 /* ViewController.swift */,
+				2641441419FE81D6000165CD /* iBeaconDelegate.swift */,
 				26E1F8AB19F95AA400AF05A2 /* Main.storyboard */,
 				26E1F8AE19F95AA400AF05A2 /* Images.xcassets */,
 				26E1F8B019F95AA400AF05A2 /* LaunchScreen.xib */,
@@ -220,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2641441519FE81D6000165CD /* iBeaconDelegate.swift in Sources */,
 				26E1F8AA19F95AA400AF05A2 /* ViewController.swift in Sources */,
 				26E1F8A819F95AA400AF05A2 /* AppDelegate.swift in Sources */,
 			);
@@ -423,6 +427,7 @@
 				26E1F8C319F95AA400AF05A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26E1F8C419F95AA400AF05A2 /* Build configuration list for PBXNativeTarget "SwiftBeaconPayTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				26E1F8C619F95AA400AF05A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
